@@ -14,11 +14,9 @@ cache:
 
 script: "./gradlew clean build"
 
-before_install:
-  - chmod +x gradlew
-
 before_deploy:
   - zip -r deploy cheeze-springboot2-webservice *
+  - ls
   - mkdir -p deploy
   - mv cheeze-springboot2-webservice.zip deploy/cheeze-springboot2-webservice.zip
 
@@ -32,6 +30,9 @@ deploy:
     acl: private # zip 파일 접근을 private으로
     local_dir: deploy #before_deploy에서 생성한 디렉토리
     wait-until-deployed: true
+
+before_install:
+  - chmod +x gradlew
 
 # CI 실행 완료시 메일로 알람
 notifications:
