@@ -15,8 +15,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r deploy cheeze-springboot2-webservice *
-  - ls
+  - zip -r cheeze-springboot2-webservice *
   - mkdir -p deploy
   - mv cheeze-springboot2-webservice.zip deploy/cheeze-springboot2-webservice.zip
 
