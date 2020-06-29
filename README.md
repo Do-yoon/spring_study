@@ -3,7 +3,7 @@
 예제 소스 코드는 여기 → https://github.com/jojoldu/freelec-springboot2-webservice
 
 
-## 빌드 버전
+## 개발 환경
 * Java 8
 * Gradle 4.10.2
 * AWS EC2(Amazon Linux AMI), RDS(MariaDB), S3, Codedeploy
