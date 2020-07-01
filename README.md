@@ -8,6 +8,7 @@
 ## 개발 환경
 * Java 8
 * Gradle 4.10.2
-* AWS EC2(Amazon Linux AMI), RDS(MariaDB), S3, Codedeploy
+* Springboot 2.1.7
+* AWS EC2(Amazon Linux AMI), RDS(MariaDB 10.3.13), S3, Codedeploy
 * Travis CI
-* Nginx
+* Nginx 1.16.1
