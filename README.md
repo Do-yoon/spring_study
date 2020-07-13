@@ -9,6 +9,7 @@
 * Java 8
 * Gradle 4.10.2
 * Springboot 2.1.7
+* 
 * AWS EC2(Amazon Linux AMI), RDS(MariaDB 10.3.13), S3, Codedeploy
 * Travis CI
 * Nginx 1.16.1
